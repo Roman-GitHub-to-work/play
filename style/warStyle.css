@@ -1,0 +1,18 @@
+#div_war_element{
+	display: flex;
+	/*flex-direction: column;*/
+	flex-wrap: wrap;
+	width: 900px;
+	height: 900px;
+	background-color: orange;
+	
+}
+.items_row{
+	width: 300px;
+	height: 300px;
+
+}
+.items_row:nth-child(2n){
+	background-color: #d2d2d2;
+
+}

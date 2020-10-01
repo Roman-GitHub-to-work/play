@@ -1,0 +1,91 @@
+.blockSerchFrends{
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	/*min-height: -webkit-calc(100vh - 100px);
+	min-height: -o-calc(100vh - 100px);
+	min-height: calc(100vh- 100px);*/
+	/*height: calc(100vh - 40px);
+	padding: 20px;*/
+	height: 100vh;
+}
+.flexing{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  min-height: 500px;
+  background-color:#d2d2d2;
+  padding: 20px;
+  /*Flex-basis:169px;*/
+  color: black;
+}
+.flexing *{
+	text-align: center;
+}
+.flexing_elem{
+	flex-grow:1;
+	/*display: flex;
+	justify-content:center;
+	align-content: center;*/
+}
+#flexing_elem2{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-content: center;
+}
+
+.flexing div:first-child{
+	max-height:150px;
+}
+#flexing_elem1{
+	background-color:red;
+}
+#flexing_elem2{
+	background-color:orange;
+	max-height:400px;
+}
+#flexing_elem3{
+	background-color:yellow;
+}
+
+input{
+	width: 100px;
+	height: 30px;
+}
+p,span,label{
+	font-size: 24px;
+}
+#modalWarWindowNone{
+	display: none;
+}
+#modalWarWindowVisiblePosition{
+	display: block;
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	background-color:#d2d2d2;
+
+	top: -webkit-calc(50% - 100px);
+	top: -o-calc(50% - 100px);
+	top: calc(50% - 100px);
+
+	left: -webkit-calc(50% - 250px);
+	left: -o-calc(50% - 250px);
+	left: calc(50% - 250px);
+}
+#modalWarWindowVisible{
+	display: block;
+	background-color:yellow;
+}
+#exitToJs{
+	cursor: pointer;
+	position: absolute;
+	color: red;	
+	top:0px;
+
+	right:10px;
+}
+#clickedExitToJs{
+	display: none;
+}

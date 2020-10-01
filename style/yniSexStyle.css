@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2? family = Lobster & display = swap');
+body{
+	width: 100vw;
+	height:100vh;
+	background:#4682b4;
+	
+}
+*{
+	font-family: 'Lobster', cursive;
+	padding: 0;
+	margin: 0;
+	/*box-sizing: border-box;*/
+}
+.body{
+	background:#d2d2d2; 
+/*	padding: 15px;*/
+	border-radius: 15px;
+	width:300px;
+}
+.displayNone,
+#displayNone{
+	display: none;
+}
+/*yniSexStyle.css*/
